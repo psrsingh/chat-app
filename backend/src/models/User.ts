@@ -6,7 +6,7 @@ export interface IUser extends Document {
   clerkId: string;
   updatedAt: Date;
   createdAt: Date;
-  avatar?: string;
+  avatar: string;
 
 }
 
